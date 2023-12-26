@@ -114,7 +114,7 @@
       <section id="banner">
         <div id="image">
           <img
-            src="assets/images/banner-logo.png"
+            src="assets/images/banner-logo1.png"
             alt="banner-logo"
             class="img-fluid"
           />
@@ -125,13 +125,13 @@
       <!--?            CONTAINER            -->
       <!--? ------------------------------- -->
 
-      <section class="container-fluid">
+      <section class="container-fluid shadow-lg pe-0 ps-0 overflow-scroll">
         <!--! ------------------------------- -->
         <!--!              MENU               -->
         <!--! ------------------------------- -->
 
-        <section id="menu" class="p-5 bg-light overflow-scroll">
-          <h1 class="text-start pt-2 pb-2 text-success">Our Offer</h1>
+        <section id="menu" class="p-5 bg-light">
+          <h1 class="text-start text-success pb-2">Our Offer</h1>
           <p>
             Food and drink in abundant choice: The Coffee Shop range of
             beverages and snacks.
@@ -143,7 +143,7 @@
             perfect cup of coffee and some choice, delicious snacks - anytime.
           </p>
 
-          <div class="row mt-5 gy-5">
+          <div class="row pt-2 gy-5">
             <div class="col-12 col-md-6 d-flex justify-content-center">
               <div class="card">
                 <img
@@ -255,9 +255,15 @@
         <!--!              ABOUT              -->
         <!--! ------------------------------- -->
 
-        <section id="about" class="bg-white p-5 overflow-scroll">
+        <section id="about" class="bg-white p-5">
           <h1 class="text-center pb-3 text-success">About Us</h1>
-          <img src="assets/images/gallery.JPEG" alt="gallery" class="pb-4" />
+          <div class="about-img text-center">
+            <img
+              src="assets/images/gallery.JPEG"
+              alt="gallery"
+              class="pb-4 img-fluid"
+            />
+          </div>
           <p>
             It's repeated millions of times every week: a guest receives a drink
             from a Coffee Shop barista. But something special is inherent in
@@ -282,7 +288,147 @@
         <!--!            GALLERY              -->
         <!--! ------------------------------- -->
 
-        <section class="gallery"></section>
+        <section id="gallery" class="p-5 bg-light">
+          <h1 class="text-center pt-3 pb-3 text-success">Photo Gallery</h1>
+          <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery2.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery3.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery4.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery6.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery7.JPG" alt="" class="img-fluid" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="assets/images/gallery8.JPG" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </section>
+
+        <!--! ------------------------------- -->
+        <!--!             CONTACT             -->
+        <!--! ------------------------------- -->
+
+        <section id="contact" class="container bg-white p-5">
+          <h2 class="text-success text-center">CONTACT</h2>
+          <article id="form">
+            <p class="fw-bold pt-3">Would you like to contact us?</p>
+            <p class="fw-bold pt-3">Contact for guest inquiries only:</p>
+            <p>
+              Are you or were you a guest at our center and would like to ask us
+              a question? Then please send our guest service an email to
+              coffeeshop@gmail.com or call us on the following number +49 800
+              7263333. Our service hours are: Daily (Mon-Sun) 09:00 - 17:00.
+            </p>
+            <div class="row justify-content-center text-center g-3 pt-3">
+              <div class="col-md-4 col-contact">
+                <i class="fas fa-phone"></i>
+                <h5>Telephone</h5>
+                <a href="tel:+9023409567">+4910354670854</a>
+              </div>
+              <div class="col-md-4 col-contact">
+                <i class="fab fa-whatsapp"></i>
+                <h5>Whatsapp</h5>
+                <a href="https://wa.me/+9023409567">+4917680912343</a>
+              </div>
+
+              <div class="col-md-4 col-contact">
+                <i class="fa fa-envelope"></i>
+                <h5>Mail</h5>
+                <a href="mailto:mydentalclinic@gmail.com"
+                  >coffeeshop@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <form class="row g-3 mt-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter name"
+                  fdprocessedid="2pe3nr"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Email"
+                  fdprocessedid="aisfpf"
+                />
+              </div>
+              <div class="col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Enter Subject"
+                  fdprocessedid="dvx4a"
+                />
+              </div>
+
+              <div class="form-floating col-12">
+                <textarea
+                  class="form-control"
+                  placeholder="Comments"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Enter Your Comments</label>
+              </div>
+
+              <div class="col-12 text-center pb-5">
+                <button
+                  type="submit"
+                  class="btn bg-success text-white"
+                  style="width: 7rem"
+                  fdprocessedid="v8lx65"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </article>
+
+          <article id="location" class="mt-3 text-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79414.617447891!2d9.92685275!3d51.536937449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4d4b86f98cac7%3A0x425ac6d94ac3e30!2sG%C3%B6ttingen!5e0!3m2!1sde!2sde!4v1702817311441!5m2!1sde!2sde"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </article>
+        </section>
+
+        <!--! ------------------------------- -->
+        <!--!             FOOTER              -->
+        <!--! ------------------------------- -->
+
+        <section id="footer" class="pt-3 pb-0">
+          <footer class="text-center text-white p-4">
+            <article>
+              <a href="#"><i class="fab fa-facebook-f text-white fs-4"></i></a>
+              <a href="#"><i class="fab fa-youtube text-white fs-4"></i></a>
+              <a href="#"><i class="fab fa-linkedin text-white fs-4"></i></a>
+              <a href="#"><i class="fab fa-instagram text-white fs-4"></i></a>
+            </article>
+            <article class="p-4 pb-0 h6 text-white">
+              © 2024 Copyright by Coffee Shop
+            </article>
+          </footer>
+        </section>
       </section>
     </main>
 

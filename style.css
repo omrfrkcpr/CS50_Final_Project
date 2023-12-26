@@ -31,7 +31,7 @@ section#menu::-webkit-scrollbar {
 /*?               BANNER               */
 /*? ---------------------------------- */
 
-section#banner {
+main section#banner {
   height: 100vh;
 }
 
@@ -39,7 +39,7 @@ section#banner {
 /*?                MENU                */
 /*? ---------------------------------- */
 
-section#menu p {
+.container-fluid section#menu p {
   opacity: 0.8;
 }
 
@@ -53,19 +53,15 @@ section#menu p {
     width: 100%;
     object-fit: cover;
   }
-
-  section#menu {
-    /* margin-top: 100px; */
-  }
 }
 
 @media only screen and (min-width: 768px) {
-  main section#banner {
+  main .container-fluid section#banner {
     min-height: 650px;
     min-width: 480px;
   }
 
-  main section#banner img {
+  main .container-fluid section#banner img {
     min-height: 650px;
   }
 }

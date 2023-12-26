@@ -44,7 +44,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex m-auto w-50" role="search">
+          <form class="d-flex m-auto w-50 btn-search" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -75,11 +75,11 @@
                 More
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About</a></li>
-                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Contact</a>
+                  <a class="dropdown-item" href="#contact">Contact</a>
                 </li>
               </ul>
             </li>
@@ -122,125 +122,162 @@
       </section>
 
       <!--? ------------------------------- -->
-      <!--?              MENU               -->
+      <!--?            CONTAINER            -->
       <!--? ------------------------------- -->
 
-      <section id="menu" class="p-5 bg-light overflow-scroll">
-        <h1 class="text-start pt-2 pb-2">Our Offer</h1>
-        <p>
-          Food and drink in abundant choice: The Coffee Shop range of beverages
-          and snacks.
-        </p>
-        <p>
-          Few things are as important to our quality of life as food and drink.
-          And with our Starbucks selection, you can be sure that everything you
-          choose is of the highest quality. Treat yourself to a perfect cup of
-          coffee and some choice, delicious snacks - anytime.
-        </p>
+      <section class="container-fluid">
+        <!--! ------------------------------- -->
+        <!--!              MENU               -->
+        <!--! ------------------------------- -->
 
-        <div class="row mt-5 gy-5">
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <div class="card">
-              <img
-                src="assets/images/drinks.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">Drinks</h5>
-                <p>
-                  Embark on a delicious journey with handcrafted coffees from
-                  around the world. Experience rich flavors and aromas that
-                  transport you to distant coffee plantations with every sip.
-                </p>
-                <div class="link">
-                  <a
-                    href="#drinks"
-                    class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
-                    >Drinks</a
-                  >
+        <section id="menu" class="p-5 bg-light overflow-scroll">
+          <h1 class="text-start pt-2 pb-2 text-success">Our Offer</h1>
+          <p>
+            Food and drink in abundant choice: The Coffee Shop range of
+            beverages and snacks.
+          </p>
+          <p>
+            Few things are as important to our quality of life as food and
+            drink. And with our Starbucks selection, you can be sure that
+            everything you choose is of the highest quality. Treat yourself to a
+            perfect cup of coffee and some choice, delicious snacks - anytime.
+          </p>
+
+          <div class="row mt-5 gy-5">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="assets/images/drinks.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <h5 class="card-title">Drinks</h5>
+                  <p>
+                    Embark on a delicious journey with handcrafted coffees from
+                    around the world. Experience rich flavors and aromas that
+                    transport you to distant coffee plantations with every sip.
+                  </p>
+                  <div class="link">
+                    <a
+                      href="#drinks"
+                      class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
+                      >Drinks</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="assets/images/food.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <h5 class="card-title">Food</h5>
+                  <p>
+                    Our pastries and sandwiches are carefully prepared with
+                    quality ingredients to make your enjoyment complete.
+                  </p>
+                  <div class="link">
+                    <a
+                      href="#food"
+                      class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
+                      >Food</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="assets/images/beans.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <h5 class="card-title">Whole Beans</h5>
+                  <p>
+                    Discover your perfect coffee with our extensive Whole Beans
+                    collection. From bold dark roasts to balanced medium roasts
+                    to vibrant light roasts, there's something for every palate.
+                  </p>
+                  <div class="link">
+                    <a
+                      href="#"
+                      class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
+                      >Whole Beans</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="assets/images/merchandise.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <h5 class="card-title">Merchandise</h5>
+                  <p>
+                    Discover the magical world of Starbucks with our fascinating
+                    assortment of items, from iconic mugs to cozy tumblers.
+                    Elevate your daily rituals and show your love for quality
+                    and style with every sip and taste.
+                  </p>
+                  <div class="link">
+                    <a
+                      href="#"
+                      class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
+                      >Merchandise</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <div class="card">
-              <img
-                src="assets/images/food.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">Food</h5>
-                <p>
-                  Our pastries and sandwiches are carefully prepared with
-                  quality ingredients to make your enjoyment complete.
-                </p>
-                <div class="link">
-                  <a
-                    href="#food"
-                    class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
-                    >Food</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <div class="card">
-              <img
-                src="assets/images/beans.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">Whole Beans</h5>
-                <p>
-                  Discover your perfect coffee with our extensive Whole Beans
-                  collection. From bold dark roasts to balanced medium roasts to
-                  vibrant light roasts, there's something for every palate.
-                </p>
-                <div class="link">
-                  <a
-                    href="#"
-                    class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
-                    >Whole Beans</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <div class="card">
-              <img
-                src="assets/images/merchandise.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">Merchandise</h5>
-                <p>
-                  Discover the magical world of Starbucks with our fascinating
-                  assortment of items, from iconic mugs to cozy tumblers.
-                  Elevate your daily rituals and show your love for quality and
-                  style with every sip and taste.
-                </p>
-                <div class="link">
-                  <a
-                    href="#"
-                    class="border border-1 border-success p-1 pe-2 ps-2 rounded-4 text-decoration-none text-success fw-semibold"
-                    >Merchandise</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
+
+        <!--! ------------------------------- -->
+        <!--!              ABOUT              -->
+        <!--! ------------------------------- -->
+
+        <section id="about" class="bg-white p-5 overflow-scroll">
+          <h1 class="text-center pb-3 text-success">About Us</h1>
+          <img src="assets/images/gallery.JPEG" alt="gallery" class="pb-4" />
+          <p>
+            It's repeated millions of times every week: a guest receives a drink
+            from a Coffee Shop barista. But something special is inherent in
+            every process of this kind. In that brief moment, an interpersonal
+            relationship is formed.
+          </p>
+          <p>
+            So we make sure that everything we do expresses respect for that
+            relationship. This applies to our commitment to offer the best
+            quality coffee in the world, as well as the responsibility we show
+            to our guests and the communities in whose midst we find ourselves.
+          </p>
+          <p>
+            Since our early days - some ten years ago - in a single Coffee
+            House, it has been important to us to improve what we find -
+            everywhere we are present, in all the places we come into contact
+            with.
+          </p>
+        </section>
       </section>
-
-      <!--? ------------------------------- -->
-      <!--?              ABOUT              -->
-      <!--? ------------------------------- -->
     </main>
 
     <script

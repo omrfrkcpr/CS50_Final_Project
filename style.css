@@ -18,6 +18,12 @@ nav .navbar {
 main {
   display: grid;
   grid-template-columns: 40% 60%;
+  overflow: scroll;
+  height: 650px;
+}
+
+main::-webkit-scrollbar {
+  display: none;
 }
 
 /*? ---------------------------------- */
@@ -27,3 +33,7 @@ main {
 section#banner {
   height: 100vh;
 }
+
+/*? ---------------------------------- */
+/*?                MENU                */
+/*? ---------------------------------- */

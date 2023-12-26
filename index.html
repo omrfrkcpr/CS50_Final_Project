@@ -24,9 +24,14 @@
     <!--             NAVBAR              -->
     <!-- ------------------------------- -->
 
-    <nav class="navbar" style="background-color: #e3f2fd">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ms-3 me-3 fs-6">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/images/logo-transparent.png"
+            alt="logo"
+            style="height: 60px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,37 +44,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
+          <form class="d-flex m-auto w-50" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -80,6 +55,49 @@
               Search
             </button>
           </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Menu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Contact</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item d-flex mt-2 mb-2">
+              <button
+                id="login"
+                class="border border-1 border-black rounded-2 ps-2 pe-2 me-2"
+              >
+                Login
+              </button>
+              <button
+                id="register"
+                class="border border-1 border-black rounded-2 bg-success text-white ps-2 pe-2"
+              >
+                Register
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

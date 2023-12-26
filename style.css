@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: SoDoSans, sans-serif;
+  font-weight: 400;
+}
+
 /* ---------------------------------- */
 /*               NAVBAR               */
 /* ---------------------------------- */
-
-nav .navbar {
-}
 
 /* ---------------------------------- */
 /*                MAIN                */
@@ -18,11 +20,10 @@ nav .navbar {
 main {
   display: grid;
   grid-template-columns: 40% 60%;
-  overflow: scroll;
   height: 650px;
 }
 
-main::-webkit-scrollbar {
+section#menu::-webkit-scrollbar {
   display: none;
 }
 
@@ -37,3 +38,34 @@ section#banner {
 /*? ---------------------------------- */
 /*?                MENU                */
 /*? ---------------------------------- */
+
+section#menu p {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    display: block;
+  }
+
+  section#banner img {
+    max-height: 650px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  section#menu {
+    /* margin-top: 100px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main section#banner {
+    min-height: 650px;
+    min-width: 480px;
+  }
+
+  main section#banner img {
+    min-height: 650px;
+  }
+}
